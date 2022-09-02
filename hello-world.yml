@@ -1,0 +1,11 @@
+name: Hello
+
+on:
+  workflow_call:
+
+jobs: 
+  Job:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: echo step
+        run: echo "Hello world"
