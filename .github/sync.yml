@@ -1,0 +1,3 @@
+fsousa96/salesforce_repo:
+  - source: workflows/
+    dest: .github/workflows/
